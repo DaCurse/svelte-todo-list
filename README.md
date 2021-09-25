@@ -1,8 +1,9 @@
 # svelte-todo-list
 
 A simple todo list app made with [Svelte](https://svelte.dev/).
-
 I made this app to get familliar with svelte and practice it's concepts.
+
+A demo of this app is running at https://sv-todo-list.netlify.app/.
 
 ## Running the app
 
