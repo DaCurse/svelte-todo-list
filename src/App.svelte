@@ -21,5 +21,6 @@
 </script>
 
 <main>
+  <h1>Todo List</h1>
   <TodoList {todos} />
 </main>
