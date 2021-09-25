@@ -1,5 +1,7 @@
 # svelte-todo-list
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0541239e-3fdb-4532-9590-070f233cf75b/deploy-status)](https://app.netlify.com/sites/sv-todo-list/deploys)
+
 A simple todo list app made with [Svelte](https://svelte.dev/).
 I made this app to get familliar with svelte and practice it's concepts.
 
