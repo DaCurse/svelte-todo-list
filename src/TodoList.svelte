@@ -3,16 +3,21 @@
   import type { Todo } from './types/todo.interface';
 
   export let todos: Todo[] = [];
+
+  function deleteTodo(id: Todo['id']) {
+    todos = todos.filter((todo) => todo.id !== id);
+  }
 </script>
 
-<ul>
+<div>
   {#each todos as todo (todo.id)}
-    <li><TodoItem {todo} /></li>
+    <TodoItem {todo} />
+    <button class="delete" on:click={() => deleteTodo(todo.id)}>Delete</button>
   {/each}
-</ul>
+</div>
 
 <style>
-  ul {
-    list-style: none;
+  .delete {
+    margin-top: 5px;
   }
 </style>
